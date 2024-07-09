@@ -1,16 +1,12 @@
-import React from 'react'
-import PurchaseTicket from './components/PurchaseTicket'
+import React from "react";
+import BuyTicket from "./components/BuyTicket";
 
 const App = () => {
   return (
     <div>
-      <PurchaseTicket/>
-      <div>
-        <h1 className='bg-danger'>Hello World </h1>
-      </div>
-
+      <BuyTicket />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
